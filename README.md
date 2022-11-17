@@ -17,6 +17,7 @@ Jest installation steps with Node Package Manager (NPM):
 node -v
 npm init
 npm install --save-dev jest@26.6.3
+
 Testing:
 
 npm test
