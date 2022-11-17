@@ -16,6 +16,10 @@
     // call addTurn() function
 
 // addTurn()
+    // clear the playerMoves Array
+    // randomly add a button ID to the currentGame Array
+    // call showTurns() function
+
 // showTurns()
 // lightsOn()
 // playerTurn()
@@ -32,11 +36,19 @@ function newGame() {
     game.score = 0;
     game.currentGame = [];
     game.playerMoves = [];
-    showScore()
+    showScore();
+    addTurn();
 }
 
 function showScore() {
     document.getElementById("score").innerText = game.score;
 }
 
-module.exports = { game, newGame, showScore };
+function addTurn() {
+    game.playerMoves = [];
+    // randomly add a button ID to the currentGame Array
+    game.currentGame.push(game.choices[(Math.floor(Math.random() * 4))]);
+    // showTurns()
+}
+
+module.exports = { game, newGame, showScore, addTurn };
