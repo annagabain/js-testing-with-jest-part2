@@ -26,4 +26,4 @@ npm test
 Live View: https://annagabain.github.io/js-testing-with-jest-part2/
 
 
-<img width="719" alt="image" src="Screenshot 2022-11-17 121314.jpg">
+<img width="719" alt="image" src="sources/Screenshot 2022-11-17 121314.jpg">
