@@ -1,4 +1,4 @@
 .package.json
 .package-lock.json
 .gitpod.yml
-.gitignore
+.gitignore.package-lock.json
